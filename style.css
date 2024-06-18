@@ -1,0 +1,64 @@
+#file1{
+    background-color: blue;
+    color:pink;
+    font-size: medium;
+    font-style:italic ;
+}
+ p {
+    /* background-color: beige;
+    color: darkcyan; */
+}
+.file1{
+    background-color:cornflowerblue;
+    color:black;
+}
+#file-id{
+    background-color: blanchedalmond;
+    color: black;
+    font-style: italic;
+
+}
+.feel:link{
+    color: aquamarine;
+}
+.feel:visited{
+    color: goldenrod;
+}
+.feel:hover{
+    color: crimson;
+}
+.feel:active{
+    color: darkorchid;
+}
+
+.lct{
+    color:goldenrod;
+    border: 1px solid green;
+    text-align: left;
+    font-size: medium;
+    background-color: dimgray;
+    font-style: italic;
+}
+.lct2{
+    background-color: darkgray;
+    color:rebeccapurple;
+    font-size: medium;
+    font-style: oblique;
+    border: 1px solid purple;
+}
+#lct{
+    background-color: cadetblue;
+    color: brown;
+    font-size: medium;
+    font-style: italic;
+}
+body{
+    background-color:darkgrey;
+    background-image: url(/img/hero.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+
+}

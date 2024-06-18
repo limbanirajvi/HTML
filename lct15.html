@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abcoding</title>
+</head>
+
+<body>
+    <h2>form attributes </h2>
+
+    <p> action attributes </p>
+    <p>target attributes</p>
+    <Form action="/" target="_blank"></Form>
+    <p>method attributes</p>
+    <form action="/" method="get"></form>
+
+    <form action="/lct1.html" method="post" target="_blank">
+        <label for="first">name:</label><br>
+        <input type="text" name="f_name" id="first"><br>
+
+        <label for="last">l name</label><br>
+        <input type="text" name="l_name" id="last"><br>
+        <input type="submit" value="submit">
+    </form>
+
+    <h2>form elements</h2>
+
+    <form action="">
+        <label for="f_name">first name</label><br>
+        <input type="text" name="name" id="f_name" placeholder="please enter your first name"><br><br>
+
+        <label for="sub">subject:</label>
+        <select name="subject" id="sub" multiple>
+
+            <option>select your subject</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="php">PHP</option>
+            <option value="js">JS</option>
+        </select><br><br>
+
+
+        <label for="car">cars</label>
+        <select name="game" id="car">
+            <optgroup label="cars">
+                <option value="audi">AUDI</option>
+                <option value="bmw">BMW</option>
+            </optgroup>
+
+            <optgroup label="subject">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+            </optgroup>
+        </select><br><br>
+
+        <label for="sub">subject</label>
+        <input list="abc" name="subject" id="sub">
+        <datalist id="abc">
+            <option value="html">
+            <option value="css">
+            <option value="php">
+        </datalist><br>
+
+        <label for="mess1">messeges</label><br><br>
+        <textarea name="mess" id="mess1" cols="3" rows="1"></textarea>
+        <input type="submit">
+    </form>
+
+    <fieldset>
+        <legend>hello class room</legend>
+        <form action="room">
+            <label for="f_name">first name</label><br>
+
+            <input type="text" name="name" id="f_name" placeholder="please enter your name"><br>
+            <label for="sub">subject</label>
+            <select name="subject" id="sub">
+                <option>select ypur subject</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="php">PHP</option>
+            </select><br><br>
+
+            <label for="car">cars:</label>
+            <select name="game" id="car">
+                <optgroup label="cars">
+                    <option value="audi">AUDI</option>
+                    <option value="bmw">BMW</option>
+                </optgroup>
+            </select>
+
+            <label for="sub">subject</label>
+            <input list="abc" name="subject" id="sub">
+            <datalist id="abc">
+                <option value="html">
+                <option value="php">
+                <option value="js">
+            </datalist>
+
+            <label for="mess1">messeges</label><br>
+            <textarea name="mess" id="mess1" cols="3" rows="2"></textarea>
+            <input type="submit">
+        </form>
+    </fieldset><br><br>
+
+    <form>
+        <label for="quantity">quantity</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30"><br>
+
+        <label for="name">name:</label>
+        <input type="text" placeholder="please......" value="rajvi">
+    </form>
+</body>
+
+</html>

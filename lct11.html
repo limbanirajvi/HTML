@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abcoding</title>
+</head>
+<body>
+    
+    <h2>Java script</h2>
+    
+    <p id="bbb"></p>
+    <button onclick="document.getElementById('bbb').innerHTML= date()">date show</button>
+
+    <p id="show"> date show </p>
+    <button onclick="myshow()">click</button>
+    <script>
+        function myshow(){
+            document.getElementById("show").innerHTML= Date();
+        }
+    </script>
+
+
+<p id="test"> hello rajvi</p>
+<button onclick="myname()">click me</button>
+
+<script>
+    function myname(){
+        document.getElementById("test").innerHTML="hey mansi"
+        document.getElementById("test").style.backgroundColor="blue"
+        document.getElementById("test").style.color="white"
+        document.getElementById("test").style.padding="20px"
+        document.getElementById("test").style.fontSize="20px"
+        document.getElementById("test").style.border="5px solid black"
+    }
+</script>
+
+<h2> Iframes</h2>
+
+<iframe src="/lct1.html" frameborder="0" width="40%" height="300px"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IvC1vTii4zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title=" youtube video player" allowfullscreen> </iframe>
+</body>
+</html>

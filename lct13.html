@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            border: none;
+        }
+
+        header {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 15px;
+        }
+
+        #menus {
+            display: flex;
+        }
+
+        #menus nav {
+            background-color: cadetblue;
+            flex: 1;
+            padding: 20px;
+            overflow: auto;
+            height: 500px;
+            font-size: 20px;
+        }
+        #menus nav ul{
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            color: darkcyan;
+        }
+        #menus nav ul li{
+            padding: 10px;
+            /* border-bottom: 1px solid red; */
+        }
+        #menus nav ul li:hover{
+            background-color: darkcyan;
+            border-radius: 15px;
+        }
+        #menus nav ul li a{
+            color: darkblue;
+            text-decoration: none;
+            border-radius: 2px;
+        }
+        #menus nav ul li a:hover{
+            color:rgba(217, 30, 30, 0.649);
+            border: none;
+            
+        }
+        #menus article {
+            background-color: rgb(55, 147, 147);
+            flex: 3;
+            overflow: auto;
+            padding: 20px;
+            height: 500px;
+        }
+        #menus #right {
+            background-color: rgb(93, 151, 153);
+            flex: 1;
+            padding: 20px;
+            overflow: auto;
+            height: 500px;
+        }
+        #right .img-img img{
+            width: 100%;
+            padding: 5px 10px;
+            
+        }
+        #test{
+            display: flex;
+        }
+        footer{
+            background-color:cadetblue;
+            color: black;
+            padding: 12px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .heads{
+            background-color:teal;
+            text-align: center;
+            padding: 12px;
+            color: navy;
+        }
+        .img-l{
+            flex: 2;
+            padding:5px 30px;
+            text-align: justify;
+        }
+        .text-l{
+            padding: 5px 30px;
+            flex: 2;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Hello Abcoding</h2>
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, saepe?</P>
+    </header>
+
+    <section id="menus">
+        <nav>
+            <ul>
+                <li><a href="/lct13.html">Home</a></li>
+                <li><a href="#">Galery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ducimus? Unde expedita maxime, ratione cum
+                corporis tempora cumque aut architecto modi ut iure beatae possimus vitae sunt aperiam magni illum.</p>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatem laudantium nihil molestiae
+                velit delectus animi quaerat ut nulla quo exercitationem officia reprehenderit ea est consectetur
+                voluptates harum, necessitatibus ducimus?</p>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ducimus? Unde expedita maxime, ratione cum
+                corporis tempora cumque aut architecto modi ut iure beatae possimus vitae sunt aperiam magni illum.</p>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatem laudantium nihil molestiae
+                velit delectus animi quaerat ut nulla quo exercitationem officia reprehenderit ea est consectetur
+                voluptates harum, necessitatibus ducimus?</p>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatem laudantium nihil molestiae
+                velit delectus animi quaerat ut nulla quo exercitationem officia reprehenderit ea est consectetur
+                voluptates harum, necessitatibus ducimus?</p>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatem laudantium nihil molestiae
+                velit delectus animi quaerat ut nulla quo exercitationem officia reprehenderit ea est consectetur
+                voluptates harum, necessitatibus ducimus?</p>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatem laudantium nihil molestiae
+                velit delectus animi quaerat ut nulla quo exercitationem officia reprehenderit ea est consectetur
+                voluptates harum, necessitatibus ducimus?</p>
+                
+        </article>
+
+        <div id="right">
+            <div class="img-img">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit eum a eaque similique possimus
+                    nulla eos quae consequuntur rerum, commodi accusantium consequatur maiores inventore dolorum
+                    explicabo! Quaerat quae at temporibus?</p>
+                <img src="/img/breakfast2.jpg" alt="breakfast2">
+            </div>
+            <div class="img-img">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium facilis veritatis odio ipsa dolor
+                    tenetur sequi dicta consequatur. Illo velit eius itaque, dicta minus neque dolorem doloribus minima
+                    sint labore.</p>
+                <img src="/img/breakfast3.jpg" alt="breakfast3">
+            </div>
+            <div class="img-img">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, in vero esse culpa, similique
+                    blanditiis quis quo optio dolore nostrum iusto possimus ipsum, consequuntur officia debitis corporis
+                    earum deleniti iste.</p>
+                <img src="/img/dinner2.jpg" alt="dinner2">
+
+            </div>
+        </div>
+    </section>
+
+    <h2 class="heads">Lorem, ipsum.</h2>
+    <section id="test">
+        <div class="img-l">
+            <img src="/img/breakfast2.jpg" alt="breakfast2">
+        </div>
+        <div class="img-l">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, incidunt in similique cum commodi eius
+                iusto nihil error aut expedita sit temporibus numquam harum alias fugit laudantium ad deserunt
+                molestias!</p>
+            <!-- <img src="/img/dinner3.jpg" alt="dinner3"> -->
+        </div>
+    </section>
+
+    <h2 class="heads">Lorem, ipsum.</h2>
+    <section id="test">
+        <div class="text-l">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis debitis exercitationem temporibus,
+                quisquam sequi doloremque quam magnam fugiat beatae omnis explicabo, optio adipisci quibusdam fugit
+                ratione delectus rerum obcaecati illo?</p>
+        </div>
+
+        <div class="img-l">
+            <img src="/img/lunch3.jpg" alt="lunch3">
+        </div>
+        
+    </section>
+
+    <footer>
+        Abcodingitinstitute@gamil.com
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1> block-level Elments </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, numquam!</p><p>Lorem ipsum dolor sit amet.</p>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iusto nobis explicabo rem id laborum eligendi officia quo autem pariatur?</div>
+
+        <h2>inline-block</h2>
+
+        <a href="#"> abcoding</a><a href="#">abcoding</a><img src="/img/about.png" alt="about" width="100px" height="100px"><img src="/img/about.png" alt="about" width="100px"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iusto. Sit blanditiis eum <span style="background-color:rebeccapurple;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dicta debitis voluptas? Veritatis architecto neque molestiae cumque dignissimos placeat quasi!</span> exercitationem voluptatum sequi dolorum enim molestiae.</p>
+
+        <h2>Id</h2>
+
+        <p id="Name"> hello mansi</p>
+        <script>
+           document.getElementById( "Name").innerHTML=" hiii rajvi"
+        </script>
+
+       <p id="abc">hello mansi</p>
+       <button onclick="myname()">click me</button>
+       <script>
+        function myname(){
+            alert("hiiiii")
+            document.getElementById("abc").innerHTML="hiii rajvi"
+        }
+       </script>
+
+
+       <h2>class</h2>
+       
+       <h3 class="abc">hello abcoding</h3>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam quo nam tempore hic? Similique suscipit dolor consequuntur, sit iure ullam dolores nostrum minus explicabo nobis? Quidem dignissimos beatae aperiam corporis?</p>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad quas non officia laudantium neque, mollitia dolorem nulla illum similique ipsa consectetur, repellat, autem dolores fugiat maiores alias? Eum, doloremque obcaecati.</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis tempora accusamus nam quia, consequatur distinctio eaque ratione labore qui sint! Sapiente non optio culpa ab maiores nobis similique tempora.</p>
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae repudiandae soluta maxime cumque. At quod consequatur cupiditate numquam molestias quas rem dolores porro ut voluptatibus, ad tempore doloremque? Consectetur, iusto?</p>
+       <button onclick="mansi()">hide</button>
+       <script>
+            function mansi(){
+                // alert("mansi");
+                let a = document.getElementsByClassName("abc");
+                // console.log(a)
+                for(let b=0; b<a.length;b++){
+                a[b].style.display="none";
+                }
+            }
+            
+       </script>
+</body>
+</html>
